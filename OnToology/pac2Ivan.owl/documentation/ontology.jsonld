@@ -1,0 +1,1719 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Targaryen"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne"
+    }, {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid64"
+    }, {
+      "@id" : "_:genid62"
+    }, {
+      "@id" : "_:genid58"
+    }, {
+      "@id" : "_:genid54"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid66"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "4"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother"
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration"
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid75"
+    }, {
+      "@id" : "_:genid73"
+    }, {
+      "@id" : "_:genid69"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid77"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "4"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration"
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid86"
+    }, {
+      "@id" : "_:genid84"
+    }, {
+      "@id" : "_:genid80"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid88"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#w"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#w"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#o"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  }, {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arya_Stark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "_:genid33"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  }, {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the kingdoms that belong to a specific continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Belonging_to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Braavos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the brother of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Brother"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the child of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Child"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the cities that exist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cities"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  }, {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the kingdoms that a continent contains"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Contains"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the continents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Continents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Crown_Lands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the day time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Day"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Day"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the date on which a king died"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DieIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Dorne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Eddard_Stark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos"
+  }, {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos"
+  }, {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the house that has been exiled in a war"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ExileFromHome"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the parent of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Father"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents that kingdom reigns a house"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Govern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents in which continent a war has happened"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HappensIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the birth year of a king"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HasBirth"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the Brother of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the father of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the house of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents who has lost in a war"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HasLosser"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the mother of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the sister of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents the child of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HasTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents what year a war ended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HasTimeFinish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents what year a war started"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King"
+  }, {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HasTimeStart"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents which house won in a war"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "HasWinner"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the hour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Hour"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents that rei rules a kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "In_Reigned_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents which house rules a kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Is_governed_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Robb_Stark"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Eddard_Stark"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Rhaegar_Targaryen"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arya_Stark"
+  }, {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sansa_Stark"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the kings that exist or have existed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "King"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/King"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName" : [ {
+    "@value" : "Eddard Stark"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the existing kingdoms in the world"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kingdoms"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration"
+  }, {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lys",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the month"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Month"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Month"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the mother of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mother"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Myr",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Norvos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  }, {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Pentos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Qohor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This property represents which kingdom a king reigns."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "QueenIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Rhaegar_Targaryen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers"
+  }, {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Robb_Stark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sansa_Stark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the sister of a character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sister"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos"
+  }, {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  }, {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Targaryen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Dominion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  }, {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  }, {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  }, {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  }, {
+    "@id" : "_:genid25"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  }, {
+    "@id" : "_:genid26"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Vale_of_Arryn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+  }, {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities"
+  }, {
+    "@id" : "_:genid28"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  }, {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+  }, {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrosh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the wars that have been or are ongoing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/War"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark"
+  }, {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon"
+  } ],
+  "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName" : [ {
+    "@value" : "War of the five Kings"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This class represents the year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Game of Thrones"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Game of Thrones"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#o",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#w",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

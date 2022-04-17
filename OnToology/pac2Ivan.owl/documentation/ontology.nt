@@ -1,0 +1,915 @@
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the kingdoms that belong to a specific continent"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> <http://www.w3.org/2000/01/rdf-schema#label> "Belonging_to"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the kingdoms that a continent contains"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains> <http://www.w3.org/2000/01/rdf-schema#label> "Contains"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the date on which a king died"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn> <http://www.w3.org/2000/01/rdf-schema#label> "DieIn"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the house that has been exiled in a war"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome> <http://www.w3.org/2000/01/rdf-schema#label> "ExileFromHome"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents that kingdom reigns a house"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> <http://www.w3.org/2000/01/rdf-schema#label> "Govern"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents in which continent a war has happened"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn> <http://www.w3.org/2000/01/rdf-schema#label> "HappensIn"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the birth year of a king"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth> <http://www.w3.org/2000/01/rdf-schema#label> "HasBirth"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the Brother of a character"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the father of a character"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the house of a character"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents who has lost in a war"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser> <http://www.w3.org/2000/01/rdf-schema#label> "HasLosser"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the mother of a character"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the sister of a character"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSon
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSon> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSon> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSon> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the child of a character"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTime
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTime> <http://www.w3.org/2000/01/rdf-schema#label> "HasTime"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents what year a war ended"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish> <http://www.w3.org/2000/01/rdf-schema#label> "HasTimeFinish"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents what year a war started"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart> <http://www.w3.org/2000/01/rdf-schema#label> "HasTimeStart"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents which house won in a war"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner> <http://www.w3.org/2000/01/rdf-schema#label> "HasWinner"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents that rei rules a kingdom"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by> <http://www.w3.org/2000/01/rdf-schema#label> "In_Reigned_by"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents which house rules a kingdom"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> <http://www.w3.org/2000/01/rdf-schema#label> "Is_governed_by"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents which kingdom a king reigns."@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn> <http://www.w3.org/2000/01/rdf-schema#label> "QueenIn"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley> .
+_:genid1 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Braavos
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Braavos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Braavos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the brother of a character"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother> <http://www.w3.org/2000/01/rdf-schema#label> "Brother"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father> .
+_:genid5 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother> .
+_:genid6 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> <http://www.w3.org/2000/01/rdf-schema#label> "Character"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the child of a character"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child> <http://www.w3.org/2000/01/rdf-schema#label> "Child"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+_:genid7 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the cities that exist"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities> <http://www.w3.org/2000/01/rdf-schema#label> "Cities"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the continents"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> <http://www.w3.org/2000/01/rdf-schema#label> "Continents"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Crown_Lands
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Crown_Lands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Crown_Lands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the day time"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day> <http://www.w3.org/2000/01/rdf-schema#label> "Day"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Day"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Dorne
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Dorne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Dorne> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the parent of a character"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father> <http://www.w3.org/2000/01/rdf-schema#label> "Father"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos> .
+_:genid9 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands> .
+_:genid10 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the hour"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour> <http://www.w3.org/2000/01/rdf-schema#label> "Hour"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Hour"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the houses"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> <http://www.w3.org/2000/01/rdf-schema#label> "Houses"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy> .
+_:genid12 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#oneOf> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the kings that exist or have existed"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> <http://www.w3.org/2000/01/rdf-schema#label> "King"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/King"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+_:genid16 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+_:genid17 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the existing kingdoms in the world"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> <http://www.w3.org/2000/01/rdf-schema#label> "Kingdoms"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock> .
+_:genid18 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lys
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lys> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lys> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the month"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month> <http://www.w3.org/2000/01/rdf-schema#label> "Month"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Month"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the mother of a character"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother> <http://www.w3.org/2000/01/rdf-schema#label> "Mother"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Myr
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Myr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Myr> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Norvos
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Norvos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Norvos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne> .
+_:genid19 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Pentos
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Pentos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Pentos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Qohor
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Qohor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Qohor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> .
+_:genid20 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the sister of a character"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister> <http://www.w3.org/2000/01/rdf-schema#label> "Sister"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> .
+_:genid21 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Targaryen
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Targaryen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Dominion
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Dominion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Dominion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell> .
+_:genid22 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon> .
+_:genid23 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn> .
+_:genid24 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister> .
+_:genid25 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear> .
+_:genid26 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Vale_of_Arryn
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Vale_of_Arryn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Vale_of_Arryn> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> .
+_:genid27 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> .
+_:genid28 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the time"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> <http://www.w3.org/2000/01/rdf-schema#label> "Time"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Time"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands> .
+_:genid29 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion> .
+_:genid30 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrosh
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrosh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrosh> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#oneOf> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the wars that have been or are ongoing"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> <http://www.w3.org/2000/01/rdf-schema#label> "War"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/War"@en .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents the year"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> <http://www.w3.org/2000/01/rdf-schema#label> "Year"@en .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Year"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arya_Stark
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arya_Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arya_Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#onClass> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+_:genid33 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Eddard_Stark
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Eddard_Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Eddard_Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Robb_Stark> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Eddard_Stark> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Rhaegar_Targaryen> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arya_Stark> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sansa_Stark> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName> "Eddard Stark" .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Rhaegar_Targaryen
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Rhaegar_Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Rhaegar_Targaryen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Robb_Stark
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Robb_Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Robb_Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sansa_Stark
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sansa_Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sansa_Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName> "War of the five Kings" .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> .
+# 
+# http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#comment> "Game of Thrones"@en .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/2000/01/rdf-schema#label> "Game of Thrones"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid34 <http://www.w3.org/2002/07/owl#members> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Targaryen> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid44 <http://www.w3.org/2002/07/owl#members> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<urn:swrl:var#o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#w> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid52 <http://www.w3.org/2003/11/swrl#body> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid54 .
+_:genid54 <http://www.w3.org/2003/11/swrl#arguments> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid58 .
+_:genid58 <http://www.w3.org/2003/11/swrl#arguments> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid62 .
+_:genid62 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid62 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid62 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid64 .
+_:genid64 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid64 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid52 <http://www.w3.org/2003/11/swrl#head> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid66 .
+_:genid66 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid66 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid67 <http://www.w3.org/2003/11/swrl#body> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid69 .
+_:genid69 <http://www.w3.org/2003/11/swrl#arguments> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid73 .
+_:genid73 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid73 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid73 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid75 .
+_:genid75 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid75 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid67 <http://www.w3.org/2003/11/swrl#head> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid77 .
+_:genid77 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid77 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid78 <http://www.w3.org/2003/11/swrl#body> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid80 .
+_:genid80 <http://www.w3.org/2003/11/swrl#arguments> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <urn:swrl:var#w> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid84 .
+_:genid84 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w> .
+_:genid84 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid84 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid86 .
+_:genid86 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid86 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid78 <http://www.w3.org/2003/11/swrl#head> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid88 .
+_:genid88 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> .
+_:genid88 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
