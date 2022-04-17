@@ -1,0 +1,957 @@
+@prefix : <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#> .
+
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to
+:Belonging_to rdf:type owl:ObjectProperty ;
+              owl:inverseOf :Contains ;
+              rdfs:domain :Kingdoms ;
+              rdfs:range :Continents ;
+              rdfs:comment "This property represents the kingdoms that belong to a specific continent"@en ;
+              rdfs:label "Belonging_to"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains
+:Contains rdf:type owl:ObjectProperty ;
+          rdfs:domain :Continents ;
+          rdfs:range :Kingdoms ;
+          rdfs:comment "This property represents the kingdoms that a continent contains"@en ;
+          rdfs:label "Contains"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn
+:DieIn rdf:type owl:ObjectProperty ;
+       rdfs:domain :King ;
+       rdfs:range :Year ;
+       rdfs:comment "This property represents the date on which a king died"@en ;
+       rdfs:label "DieIn"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome
+:ExileFromHome rdf:type owl:ObjectProperty ;
+               rdfs:domain :War ;
+               rdfs:range :Houses ;
+               rdfs:comment "This property represents the house that has been exiled in a war"@en ;
+               rdfs:label "ExileFromHome"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern
+:Govern rdf:type owl:ObjectProperty ;
+        owl:inverseOf :Is_governed_by ;
+        rdfs:domain :Houses ;
+        rdfs:range :Kingdoms ;
+        rdfs:comment "This property represents that kingdom reigns a house"@en ;
+        rdfs:label "Govern"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn
+:HappensIn rdf:type owl:ObjectProperty ;
+           rdfs:domain :War ;
+           rdfs:range :Continents ;
+           rdfs:comment "This property represents in which continent a war has happened"@en ;
+           rdfs:label "HappensIn"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth
+:HasBirth rdf:type owl:ObjectProperty ;
+          rdfs:domain :King ;
+          rdfs:range :Year ;
+          rdfs:comment "This property represents the birth year of a king"@en ;
+          rdfs:label "HasBirth"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother
+:HasBrother rdf:type owl:ObjectProperty ;
+            rdfs:domain :Character ;
+            rdfs:range :Brother ;
+            rdfs:comment "This property represents the Brother of a character"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather
+:HasFather rdf:type owl:ObjectProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :Father ;
+           rdfs:comment "This property represents the father of a character"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse
+:HasHouse rdf:type owl:ObjectProperty ;
+          rdfs:domain :Character ;
+          rdfs:range :Houses ;
+          rdfs:comment "This property represents the house of a character"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser
+:HasLosser rdf:type owl:ObjectProperty ;
+           rdfs:domain :War ;
+           rdfs:range :Houses ;
+           rdfs:comment "This property represents who has lost in a war"@en ;
+           rdfs:label "HasLosser"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother
+:HasMother rdf:type owl:ObjectProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :Mother ;
+           rdfs:comment "This property represents the mother of a character"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister
+:HasSister rdf:type owl:ObjectProperty ;
+           rdfs:domain :Character ;
+           rdfs:range :Sister ;
+           rdfs:comment "This property represents the sister of a character"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSon
+:HasSon rdf:type owl:ObjectProperty ;
+        rdfs:domain :Character ;
+        rdfs:range :Child ;
+        rdfs:comment "This property represents the child of a character"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTime
+:HasTime rdf:type owl:ObjectProperty ;
+         rdfs:domain :War ;
+         rdfs:range :Time ;
+         rdfs:label "HasTime"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish
+:HasTimeFinish rdf:type owl:ObjectProperty ;
+               rdfs:domain :War ;
+               rdfs:range :Time ;
+               rdfs:comment "This property represents what year a war ended"@en ;
+               rdfs:label "HasTimeFinish"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart
+:HasTimeStart rdf:type owl:ObjectProperty ;
+              rdfs:domain :King ,
+                          :War ;
+              rdfs:range :Time ;
+              rdfs:comment "This property represents what year a war started"@en ;
+              rdfs:label "HasTimeStart"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner
+:HasWinner rdf:type owl:ObjectProperty ;
+           rdfs:domain :War ;
+           rdfs:range :Houses ;
+           rdfs:comment "This property represents which house won in a war"@en ;
+           rdfs:label "HasWinner"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by
+:Is_Reigned_by rdf:type owl:ObjectProperty ;
+               owl:inverseOf :QueenIn ;
+               rdfs:domain :Kingdoms ;
+               rdfs:range :King ;
+               rdfs:comment "This property represents that rei rules a kingdom"@en ;
+               rdfs:label "In_Reigned_by"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by
+:Is_governed_by rdf:type owl:ObjectProperty ;
+                rdfs:domain :Kingdoms ;
+                rdfs:range :Houses ;
+                rdfs:comment "This property represents which house rules a kingdom"@en ;
+                rdfs:label "Is_governed_by"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn
+:QueenIn rdf:type owl:ObjectProperty ;
+         rdfs:domain :King ;
+         rdfs:range :Kingdoms ;
+         rdfs:comment "This property represents which kingdom a king reigns."@en ;
+         rdfs:label "QueenIn"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName
+:hasKingName rdf:type owl:DatatypeProperty ;
+             rdfs:domain :King ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain :War ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration
+:hasWarDuration rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Duration ;
+                rdfs:range xsd:integer .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn
+:Arryn rdf:type owl:Class ;
+       rdfs:subClassOf :Houses ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :Govern ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onClass :The_Kingdom_of_the_Mountain_and_the_Valley
+                       ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon
+:Baratheon rdf:type owl:Class ;
+           rdfs:subClassOf :Houses ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :Govern ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :The_Kingdom_of_Storms
+                           ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Braavos
+:Braavos rdf:type owl:Class ;
+         rdfs:subClassOf :Free_Cities .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother
+:Brother rdf:type owl:Class ;
+         rdfs:subClassOf :Character ;
+         rdfs:comment "This class represents the brother of a character"@en ;
+         rdfs:label "Brother"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character
+:Character rdf:type owl:Class ;
+           rdfs:subClassOf [ rdf:type owl:Restriction ;
+                             owl:onProperty :HasSister ;
+                             owl:someValuesFrom :Brother
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :HasSister ;
+                             owl:someValuesFrom :Sister
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :HasFather ;
+                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :Father
+                           ] ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :HasMother ;
+                             owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :Mother
+                           ] ;
+           rdfs:label "Character"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child
+:Child rdf:type owl:Class ;
+       rdfs:subClassOf :Character ;
+       rdfs:comment "This class represents the child of a character"@en ;
+       rdfs:label "Child"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities
+:Cities rdf:type owl:Class ;
+        rdfs:subClassOf :Kingdoms ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :Belonging_to ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onClass :Continents
+                        ] ;
+        owl:disjointWith :Continents ;
+        rdfs:comment "This class represents the cities that exist"@en ;
+        rdfs:label "Cities"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents
+:Continents rdf:type owl:Class ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :Contains ;
+                              owl:someValuesFrom :Kingdoms
+                            ] ;
+            rdfs:comment "This class represents the continents"@en ;
+            rdfs:label "Continents"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Crown_Lands
+:Crown_Lands rdf:type owl:Class ;
+             rdfs:subClassOf :The_seven_kingdoms .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day
+:Day rdf:type owl:Class ;
+     rdfs:subClassOf :Time ;
+     rdfs:comment "This class represents the day time"@en ;
+     rdfs:label "Day"@en ;
+     rdfs:sameAs "http://dbpedia.org/resource/Day"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Dorne
+:Dorne rdf:type owl:Class ;
+       rdfs:subClassOf :The_seven_kingdoms .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration
+:Duration rdf:type owl:Class ;
+          rdfs:subClassOf :War .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos
+:Essos rdf:type owl:Class ;
+       rdfs:subClassOf :Continents ;
+       owl:disjointWith :Sothoryos ,
+                        :Ulthos ,
+                        :West .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father
+:Father rdf:type owl:Class ;
+        rdfs:subClassOf :Character ;
+        rdfs:comment "This class represents the parent of a character"@en ;
+        rdfs:label "Father"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities
+:Free_Cities rdf:type owl:Class ;
+             rdfs:subClassOf :Cities ,
+                             [ rdf:type owl:Restriction ;
+                               owl:onProperty :Belonging_to ;
+                               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                               owl:onClass :Essos
+                             ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy
+:Greyjoy rdf:type owl:Class ;
+         rdfs:subClassOf :Houses ,
+                         [ rdf:type owl:Restriction ;
+                           owl:onProperty :Govern ;
+                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                           owl:onClass :Iron_islands
+                         ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour
+:Hour rdf:type owl:Class ;
+      rdfs:subClassOf :Time ;
+      rdfs:comment "This class represents the hour"@en ;
+      rdfs:label "Hour"@en ;
+      rdfs:sameAs "http://dbpedia.org/resource/Hour"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses
+:Houses rdf:type owl:Class ;
+        rdfs:subClassOf [ rdf:type owl:Restriction ;
+                          owl:onProperty :Govern ;
+                          owl:allValuesFrom :Kingdoms
+                        ] ;
+        rdfs:comment "This class represents the houses"@en ;
+        rdfs:label "Houses"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands
+:Iron_islands rdf:type owl:Class ;
+              rdfs:subClassOf :The_Kingdom_of_Islands_and_Rivers ,
+                              [ rdf:type owl:Restriction ;
+                                owl:onProperty :Is_governed_by ;
+                                owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                owl:onClass :Greyjoy
+                              ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King
+:King rdf:type owl:Class ;
+      owl:equivalentClass [ rdf:type owl:Class ;
+                            owl:oneOf ( :King1
+                                      )
+                          ] ;
+      rdfs:subClassOf [ rdf:type owl:Restriction ;
+                        owl:onProperty :QueenIn ;
+                        owl:someValuesFrom :Kingdoms
+                      ] ;
+      rdfs:comment "This class represents the kings that exist or have existed"@en ;
+      rdfs:label "King"@en ;
+      rdfs:sameAs "http://dbpedia.org/resource/King"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms
+:Kingdoms rdf:type owl:Class ;
+          rdfs:subClassOf [ rdf:type owl:Restriction ;
+                            owl:onProperty :Belonging_to ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Continents
+                          ] ,
+                          [ rdf:type owl:Restriction ;
+                            owl:onProperty :Is_governed_by ;
+                            owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                            owl:onClass :Houses
+                          ] ;
+          rdfs:comment "This class represents the existing kingdoms in the world"@en ;
+          rdfs:label "Kingdoms"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister
+:Lannister rdf:type owl:Class ;
+           rdfs:subClassOf :Houses ,
+                           [ rdf:type owl:Restriction ;
+                             owl:onProperty :Govern ;
+                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                             owl:onClass :The_Kingdom_of_the_Rock
+                           ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration
+:Long_duration rdf:type owl:Class ;
+               rdfs:subClassOf :Duration ;
+               owl:disjointWith :Normal_duration ,
+                                :Short_duration .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lys
+:Lys rdf:type owl:Class ;
+     rdfs:subClassOf :Free_Cities .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month
+:Month rdf:type owl:Class ;
+       rdfs:subClassOf :Time ;
+       rdfs:comment "This class represents the month"@en ;
+       rdfs:label "Month"@en ;
+       rdfs:sameAs "http://dbpedia.org/resource/Month"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother
+:Mother rdf:type owl:Class ;
+        rdfs:subClassOf :Character ;
+        rdfs:comment "This class represents the mother of a character"@en ;
+        rdfs:label "Mother"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Myr
+:Myr rdf:type owl:Class ;
+     rdfs:subClassOf :Free_Cities .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration
+:Normal_duration rdf:type owl:Class ;
+                 rdfs:subClassOf :Duration ;
+                 owl:disjointWith :Short_duration .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Norvos
+:Norvos rdf:type owl:Class ;
+        rdfs:subClassOf :Free_Cities .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear
+:Nymeros_Martell_of_Sunspear rdf:type owl:Class ;
+                             rdfs:subClassOf :Houses ,
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :Govern ;
+                                               owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                               owl:onClass :The_Principality_of_Dorne
+                                             ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Pentos
+:Pentos rdf:type owl:Class ;
+        rdfs:subClassOf :Free_Cities .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Qohor
+:Qohor rdf:type owl:Class ;
+       rdfs:subClassOf :Free_Cities .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands
+:Riverlands rdf:type owl:Class ;
+            rdfs:subClassOf :The_Kingdom_of_Islands_and_Rivers ,
+                            [ rdf:type owl:Restriction ;
+                              owl:onProperty :Is_governed_by ;
+                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                              owl:onClass :Tully
+                            ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration
+:Short_duration rdf:type owl:Class ;
+                rdfs:subClassOf :Duration .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister
+:Sister rdf:type owl:Class ;
+        rdfs:subClassOf :Character ;
+        rdfs:comment "This class represents the sister of a character"@en ;
+        rdfs:label "Sister"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos
+:Sothoryos rdf:type owl:Class ;
+           rdfs:subClassOf :Continents ;
+           owl:disjointWith :Ulthos ,
+                            :West .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark
+:Stark rdf:type owl:Class ;
+       rdfs:subClassOf :Houses ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :Govern ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onClass :The_northern_kingdom
+                       ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Targaryen
+:Targaryen rdf:type owl:Class ;
+           rdfs:subClassOf :Houses .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Dominion
+:The_Dominion rdf:type owl:Class ;
+              rdfs:subClassOf :The_seven_kingdoms .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion
+:The_Kingdom_of_Dominion rdf:type owl:Class ;
+                         rdfs:subClassOf :Kingdoms ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :Is_governed_by ;
+                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass :Tyrell
+                                         ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers
+:The_Kingdom_of_Islands_and_Rivers rdf:type owl:Class ;
+                                   rdfs:subClassOf :Kingdoms .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms
+:The_Kingdom_of_Storms rdf:type owl:Class ;
+                       rdfs:subClassOf :Kingdoms ,
+                                       [ rdf:type owl:Restriction ;
+                                         owl:onProperty :Is_governed_by ;
+                                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                         owl:onClass :Baratheon
+                                       ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley
+:The_Kingdom_of_the_Mountain_and_the_Valley rdf:type owl:Class ;
+                                            rdfs:subClassOf :Kingdoms ,
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :Is_governed_by ;
+                                                              owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                                              owl:onClass :Arryn
+                                                            ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock
+:The_Kingdom_of_the_Rock rdf:type owl:Class ;
+                         rdfs:subClassOf :Kingdoms ,
+                                         [ rdf:type owl:Restriction ;
+                                           owl:onProperty :Is_governed_by ;
+                                           owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                           owl:onClass :Lannister
+                                         ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne
+:The_Principality_of_Dorne rdf:type owl:Class ;
+                           rdfs:subClassOf :Kingdoms ,
+                                           [ rdf:type owl:Restriction ;
+                                             owl:onProperty :Is_governed_by ;
+                                             owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                             owl:onClass :Nymeros_Martell_of_Sunspear
+                                           ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Vale_of_Arryn
+:The_Vale_of_Arryn rdf:type owl:Class ;
+                   rdfs:subClassOf :The_seven_kingdoms .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom
+:The_northern_kingdom rdf:type owl:Class ;
+                      rdfs:subClassOf :Kingdoms ,
+                                      [ rdf:type owl:Restriction ;
+                                        owl:onProperty :Is_governed_by ;
+                                        owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                        owl:onClass :Stark
+                                      ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms
+:The_seven_kingdoms rdf:type owl:Class ;
+                    rdfs:subClassOf :Cities ,
+                                    [ rdf:type owl:Restriction ;
+                                      owl:onProperty :Belonging_to ;
+                                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                      owl:onClass :West
+                                    ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time
+:Time rdf:type owl:Class ;
+      rdfs:comment "This class represents the time"@en ;
+      rdfs:label "Time"@en ;
+      rdfs:sameAs "http://dbpedia.org/resource/Time"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully
+:Tully rdf:type owl:Class ;
+       rdfs:subClassOf :Houses ,
+                       [ rdf:type owl:Restriction ;
+                         owl:onProperty :Govern ;
+                         owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                         owl:onClass :Riverlands
+                       ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell
+:Tyrell rdf:type owl:Class ;
+        rdfs:subClassOf :Houses ,
+                        [ rdf:type owl:Restriction ;
+                          owl:onProperty :Govern ;
+                          owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                          owl:onClass :The_Kingdom_of_Dominion
+                        ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrosh
+:Tyrosh rdf:type owl:Class ;
+        rdfs:subClassOf :Free_Cities .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos
+:Ulthos rdf:type owl:Class ;
+        rdfs:subClassOf :Continents ;
+        owl:disjointWith :West .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War
+:War rdf:type owl:Class ;
+     owl:equivalentClass [ rdf:type owl:Class ;
+                           owl:oneOf ( :War_of_the_Five_Kings
+                                     )
+                         ] ;
+     rdfs:comment "This class represents the wars that have been or are ongoing"@en ;
+     rdfs:label "War"@en ;
+     rdfs:sameAs "http://dbpedia.org/resource/War"@en .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West
+:West rdf:type owl:Class ;
+      rdfs:subClassOf :Continents .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year
+:Year rdf:type owl:Class ;
+      rdfs:subClassOf :Time ;
+      rdfs:comment "This class represents the year"@en ;
+      rdfs:label "Year"@en ;
+      rdfs:sameAs "http://dbpedia.org/resource/Year"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arya_Stark
+:Arya_Stark rdf:type owl:NamedIndividual ,
+                     :Sister .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon
+:Baratheon rdf:type owl:NamedIndividual ,
+                    [ rdf:type owl:Restriction ;
+                      owl:onProperty :HasWinner ;
+                      owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                      owl:onClass :Houses
+                    ] .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Eddard_Stark
+:Eddard_Stark rdf:type owl:NamedIndividual ,
+                       :Father .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Jhon_Snow
+:Jhon_Snow rdf:type owl:NamedIndividual ,
+                    :Character ;
+           :HasBrother :Robb_Stark ;
+           :HasFather :Eddard_Stark ;
+           :HasHouse :Stark ;
+           :HasMother :Rhaegar_Targaryen ;
+           :HasSister :Arya_Stark ,
+                      :Sansa_Stark .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King1
+:King1 rdf:type owl:NamedIndividual ,
+                :King ;
+       :DieIn <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299> ;
+       :HasBirth <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263> ;
+       :QueenIn :The_northern_kingdom ;
+       :hasKingName "Eddard Stark" .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Rhaegar_Targaryen
+:Rhaegar_Targaryen rdf:type owl:NamedIndividual ,
+                            :Mother .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Robb_Stark
+:Robb_Stark rdf:type owl:NamedIndividual ,
+                     :Brother .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sansa_Stark
+:Sansa_Stark rdf:type owl:NamedIndividual ,
+                      :Sister .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark
+:Stark rdf:type owl:NamedIndividual ,
+                :Stark .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom
+:The_northern_kingdom rdf:type owl:NamedIndividual ,
+                               :The_northern_kingdom .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully
+:Tully rdf:type owl:NamedIndividual ,
+                :Houses .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War_of_the_Five_Kings
+:War_of_the_Five_Kings rdf:type owl:NamedIndividual ,
+                                :War ;
+                       :ExileFromHome :Stark ,
+                                      :Tully ;
+                       :HappensIn :West ;
+                       :HasLosser :Tully ;
+                       :HasTimeFinish <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300> ;
+                       :HasTimeStart <http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298> ;
+                       :HasWinner :Baratheon ;
+                       :hasName "War of the five Kings" .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West
+:West rdf:type owl:NamedIndividual ,
+               :Continents .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#263> rdf:type owl:NamedIndividual ,
+                                                                                      :Year .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#298> rdf:type owl:NamedIndividual ,
+                                                                                      :Year .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#299> rdf:type owl:NamedIndividual ,
+                                                                                      :Year .
+
+
+###  http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300
+<http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#300> rdf:type owl:NamedIndividual ,
+                                                                                      :Year .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+owl:Thing rdfs:comment "Game of Thrones"@en ;
+          rdfs:label "Game of Thrones"@en .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Arryn
+                :Baratheon
+                :Greyjoy
+                :Lannister
+                :Nymeros_Martell_of_Sunspear
+                :Stark
+                :Targaryen
+                :Tully
+                :Tyrell
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :The_Kingdom_of_Dominion
+                :The_Kingdom_of_Islands_and_Rivers
+                :The_Kingdom_of_Storms
+                :The_Kingdom_of_the_Mountain_and_the_Valley
+                :The_Kingdom_of_the_Rock
+                :The_Principality_of_Dorne
+                :The_northern_kingdom
+              )
+] .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#o> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#w> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :War ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasWarDuration ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#w> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 4 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first <urn:swrl:var#w> ;
+                                                                                                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                rdf:first 8 ;
+                                                                                                                                                rdf:rest rdf:nil
+                                                                                                                                              ]
+                                                                                                                                   ]
+                                                                                      ] ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Normal_duration ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :War ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasWarDuration ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#w> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 4 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Short_duration ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :War ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasWarDuration ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#w>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#w> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 8 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Long_duration ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#o>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

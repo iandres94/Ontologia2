@@ -1,0 +1,277 @@
+{
+  "@context" : {
+    "Mother" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Mother"
+    },
+    "Iron_islands" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Iron_islands"
+    },
+    "Belonging_to" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Belonging_to",
+      "@type" : "@id"
+    },
+    "Short_duration" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Short_duration"
+    },
+    "HappensIn" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HappensIn",
+      "@type" : "@id"
+    },
+    "Arryn" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Arryn"
+    },
+    "Essos" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Essos"
+    },
+    "The_Kingdom_of_the_Rock" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Rock"
+    },
+    "King" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#King"
+    },
+    "War" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#War"
+    },
+    "Crown_Lands" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Crown_Lands"
+    },
+    "West" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#West"
+    },
+    "Tully" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tully"
+    },
+    "The_Kingdom_of_Islands_and_Rivers" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Islands_and_Rivers"
+    },
+    "Sister" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sister"
+    },
+    "The_Kingdom_of_Storms" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Storms"
+    },
+    "Continents" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Continents"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "HasTimeStart" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeStart",
+      "@type" : "@id"
+    },
+    "Sothoryos" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Sothoryos"
+    },
+    "Contains" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Contains",
+      "@type" : "@id"
+    },
+    "HasLosser" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasLosser",
+      "@type" : "@id"
+    },
+    "Govern" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Govern",
+      "@type" : "@id"
+    },
+    "hasKingName" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasKingName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Baratheon" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Baratheon"
+    },
+    "The_seven_kingdoms" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_seven_kingdoms"
+    },
+    "Tyrosh" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrosh"
+    },
+    "Normal_duration" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Normal_duration"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Pentos" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Pentos"
+    },
+    "Character" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Character"
+    },
+    "Dorne" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Dorne"
+    },
+    "HasBrother" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBrother",
+      "@type" : "@id"
+    },
+    "Riverlands" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Riverlands"
+    },
+    "Cities" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Cities"
+    },
+    "Long_duration" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Long_duration"
+    },
+    "Lys" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lys"
+    },
+    "DieIn" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#DieIn",
+      "@type" : "@id"
+    },
+    "The_Principality_of_Dorne" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Principality_of_Dorne"
+    },
+    "Tyrell" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Tyrell"
+    },
+    "Is_governed_by" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_governed_by",
+      "@type" : "@id"
+    },
+    "HasWinner" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasWinner",
+      "@type" : "@id"
+    },
+    "Hour" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Hour"
+    },
+    "Free_Cities" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Free_Cities"
+    },
+    "QueenIn" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#QueenIn",
+      "@type" : "@id"
+    },
+    "Lannister" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Lannister"
+    },
+    "The_Kingdom_of_the_Mountain_and_the_Valley" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_the_Mountain_and_the_Valley"
+    },
+    "Duration" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Duration"
+    },
+    "Ulthos" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Ulthos"
+    },
+    "HasTimeFinish" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTimeFinish",
+      "@type" : "@id"
+    },
+    "Brother" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Brother"
+    },
+    "hasWarDuration" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#hasWarDuration",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Kingdoms" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Kingdoms"
+    },
+    "Nymeros_Martell_of_Sunspear" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Nymeros_Martell_of_Sunspear"
+    },
+    "Year" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Year"
+    },
+    "Houses" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Houses"
+    },
+    "The_Dominion" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Dominion"
+    },
+    "HasBirth" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasBirth",
+      "@type" : "@id"
+    },
+    "The_northern_kingdom" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_northern_kingdom"
+    },
+    "HasTime" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasTime",
+      "@type" : "@id"
+    },
+    "Braavos" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Braavos"
+    },
+    "Stark" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Stark"
+    },
+    "Targaryen" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Targaryen"
+    },
+    "HasHouse" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasHouse",
+      "@type" : "@id"
+    },
+    "Greyjoy" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Greyjoy"
+    },
+    "Myr" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Myr"
+    },
+    "Qohor" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Qohor"
+    },
+    "HasMother" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasMother",
+      "@type" : "@id"
+    },
+    "Child" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Child"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Father" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Father"
+    },
+    "The_Kingdom_of_Dominion" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Kingdom_of_Dominion"
+    },
+    "The_Vale_of_Arryn" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#The_Vale_of_Arryn"
+    },
+    "HasSister" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSister",
+      "@type" : "@id"
+    },
+    "Month" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Month"
+    },
+    "Time" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Time"
+    },
+    "Day" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Day"
+    },
+    "HasFather" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasFather",
+      "@type" : "@id"
+    },
+    "Norvos" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Norvos"
+    },
+    "Is_Reigned_by" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#Is_Reigned_by",
+      "@type" : "@id"
+    },
+    "ExileFromHome" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#ExileFromHome",
+      "@type" : "@id"
+    },
+    "HasSon" : {
+      "@id" : "http://www.semanticweb.org/ivan_/ontologies/2022/3/untitled-ontology-3#HasSon",
+      "@type" : "@id"
+    }
+  }
+}
